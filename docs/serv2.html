@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 7]>   <html class="no-js ie ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 8]>   <html class="no-js ie ie8 lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 9]>   <html class="no-js ie ie9 lt-ie10"><![endif]-->
+<!--[if gt IE 9]><html class="no-js ie ie10"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>GroundworkCSS &hearts;</title>
+    <!-- Modernizr -->
+    <script src="../js/libs/modernizr-2.6.2.min.js"></script>
+    <!-- jQuery-->
+    <script type="text/javascript" src="../js/libs/jquery-1.10.2.min.js"></script>
+    <!-- framework css -->
+    <!--[if gt IE 9]><!-->
+    <link type="text/css" rel="stylesheet" href="../css/groundwork.css">
+    <!--<![endif]-->
+    <!--[if lte IE 9]>
+    <link type="text/css" rel="stylesheet" href="../css/groundwork-core.css">
+    <link type="text/css" rel="stylesheet" href="../css/groundwork-type.css">
+    <link type="text/css" rel="stylesheet" href="../css/groundwork-ui.css">
+    <link type="text/css" rel="stylesheet" href="../css/groundwork-anim.css">
+    <link type="text/css" rel="stylesheet" href="../css/groundwork-ie.css"><![endif]-->
+    <style type="text/css">
+        .logo {
+            position: relative;
+            top: -0.5em;
+        }
+
+        .logo a,
+        .logo a:visited {
+            text-decoration: none;
+            color: #2B2B2D;
+        }
+
+        .logo img {
+            height: 2em;
+            position: relative;
+            top: 0.55em;
+            margin-right: 0.3em;
+        }
+
+        body {
+            background-image: url("../images/back3.jpg");
+        }
+
+        nav .nav .gap-top {
+            clear: both;
+            background: rgb(75, 73, 73);
+            color: #0e25f1;
+            border: 1px solid #c6c6c6;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+        }
+    </style>
+    <!-- snippet (syntax highlighting for code examples)-->
+    <script type="text/javascript" src="../js/demo/jquery.snippet.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/demo/jquery.snippet.css">
+    <script type="text/javascript">
+        (function () {
+
+            $(document).ready(function () {
+                $('pre[data-lang="html"]').snippet("html", {
+                    style: "groundwork",
+                    clipboard: "../js/demo/ZeroClipboard.swf"
+                });
+                $('pre[data-lang="css"]').snippet("css", {
+                    style: "groundwork",
+                    clipboard: "../js/demo/ZeroClipboard.swf"
+                });
+                $('pre[data-lang="sass"]').snippet("sass", {
+                    style: "groundwork",
+                    clipboard: "../js/demo/ZeroClipboard.swf"
+                });
+                return $('pre[data-lang="js"]').snippet("javascript", {
+                    style: "groundwork",
+                    clipboard: "../js/demo/ZeroClipboard.swf"
+                });
+            });
+
+        }).call(this);
+    </script>
+</head>
+
+<body>
+    <header class="padded">
+        <div class="container">
+            <div class="row bounceInUp animated">
+                <div class="one half">
+                    <h2 class="logo">
+                        <a href="/" target="_parent">
+                            <img src="../images/logo.jpg" alt="GroundworkCSS">Pristine Poochies</a>
+                    </h2>
+                </div>
+                <div class="one half">
+                    <p class="small double-pad-top no-pad-small-tablet align-right align-left-small-tablet">
+                        <a href="https://www.facebook.com/PristinePoochies/" target="_parent">Facebook</a> - Call (912)
+                        999-8485 </p>
+                </div>
+            </div>
+            <nav role="navigation " class="nav gap-top">
+                <ul role="menubar">
+                    <li>
+                        <a href="../index.html">
+                            <i class="icon-home"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html">
+                            Services</a>
+                    </li>
+                    <li>
+                        <a href="photos.html">
+                            Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact Us</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="padded">
+            <div class="row">
+
+                <div class="row bounceInLeft animated">
+                    <img src="../images/pug.jpg" style="width:20%" alt="" class="pull-right">
+                    <h1 class="zero museo-slab">Services Offered</h1>
+                    <p class="quicksand">Prices vary by size, coat condition, and behavior.
+                        Any price quotes given before the groom are approximate and subject to change.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="one whole padded">
+            <div class="bounceInLeft animated">
+                <div class="row">
+                    <div class="one whole padded">
+                        <div class="tabs ipad">
+                            <ul role="tablist">
+                                <li role="tab" aria-controls="#tab1">Bath </li>
+                                <li role="tab" aria-controls="#tab2">Groom</li>
+                                <li role="tab" aria-controls="#tab3">Senior Pets</li>
+                                <li role="tab" aria-controls="#tab4">Special Needs</li>
+                                <li role="tab" aria-controls="#tab5">De-shed</li>
+                                <li role="tab" aria-controls="#tab6">Hand stripping</li>
+                                <li role="tab" aria-controls="#tab7">Add-ons </li>
+                                <li role="tab" aria-controls="#tab8">Upgrade</li>
+                                <li role="tab" aria-controls="#tab9">Shampoos</li>
+                                <li role="tab" aria-controls="#tab10">Dye</li>
+                                <li role="tab" aria-controls="#tab11">Walk-in Services</li>
+                            </ul>
+                            <div id="tab1" role="tabpanel">
+                                <h1>Bath, Brush, Nails </h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/prissy.jpg" /></div>
+                                <p class="gap-top-small-tablet">Service includes a bath with gentle shampoo. After
+                                    drying your poochie gets a thorough brushing and combing to remove excess fur and
+                                    minor mat removal if needed. Nails are trimmed and ears are cleaned. Any long hair
+                                    on the feet, eye area, sanitaries, or ear openings is trimmed. A light all over trim
+                                    can be added to this service for breeds like Golden Retrievers, Shelties, Australian
+                                    Shepherds, and Pomeranians. We finish up with a scented cologne and bandana or bow.
+                                    Anal glands can be externally expressed by request only.</p>
+                            </div>
+                            <div id="tab2" role="tabpanel">
+                                <h1>Full Grooming (hair cut)</h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/stella2.jpg" /></div>
+                                <p class="gap-top-small-tablet">Service includes everything in a Bath, Brush, Nail
+                                    service with the addition of a nose to tail hair cut customized for your poochies
+                                    needs and your style preference. While we are skilled in mat removal we will take
+                                    the dogs comfort into account. We prefer to put humanity over vanity. If you desire
+                                    a long, fluffy look we recommend frequent visits, coat type can vary this as some
+                                    dogs need every other week brushing visits while others can go 6 weeks. Mat removal
+                                    is an additional charge based on time.</p>
+                            </div>
+                            <div id="tab3" role="tabpanel">
+                                <h1>Senior Pets</h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/Lacey .jpg" /></div>
+                                <p class="gap-top-small-tablet">We have experience working with seniors who may have the
+                                    onset of doggy dementia, loss of hearing or sight, or pets that have difficulty
+                                    standing and require two people to make the groom more comfortable. These precious
+                                    poochies will be worked straight through and made comfortable throughout their
+                                    visit.</p>
+                            </div>
+                            <div id="tab4" role="tabpanel">
+                                <h1>Special Needs </h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/buffy.jpg" /></div>
+                                <p class="gap-top-small-tablet">When we talk about these we are referring to dogs that
+                                    may have sound sensitivity, say other dogs barking make them nervous, or they are
+                                    timid rescue dogs.
+                                    We have experience working with rescue dogs, dogs with disabilities like paralysis
+                                    or seizures, For these dogs we set aside a more private time with less interruptions
+                                    and noise. Tuesdays are THE BEST days for them, with Saturday being THE WORST.
+                                </p>
+                            </div>
+                            <div id="tab5" role="tabpanel">
+                                <h1>De-Shed </h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/winston.jpg" /></div>
+                                <p class="gap-top-small-tablet">What is a De-Shed or a Shed out treatment? </p>
+                                <p> These are terms used by various dog groomers to describe the removal of
+                                    excess undercoat in your double coated breeds like Golden Retrievers,
+                                    Labrador Retrievers, German Shepherds, Huskies, and Corgis.
+                                    This is a long and detailed process that here at Pristine Poochies is done in the
+                                    tub with fingers,
+                                    water, and conditioner. </p>
+                                <p> There are many metal tools used to remove the undercoat but
+                                    excessive use can irritate skin and damage the guard hair.
+                                    We still use these tools in moderation once your poochie is dry.
+                                    This is, unfortunately, not a one and done magical treatment.
+                                    There will still be loose hair but the amount will be drastically reduced.
+                                    Shedding dogs are recommended to come at least every 4 weeks to keep the shedding to
+                                    a minimum.
+                                    Your vacuum with thank you! This is not a requested service at Pristine Poochies,
+                                    all double coated breeds receive this as we strive to only do the best work we can
+                                    do.</p>
+
+                            </div>
+                            <div id="tab6" role="tabpanel">
+                                <h1>Hand stripping</h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/Goldie.jpg" /></div>
+                                <p class="gap-top-small-tablet">Hand stripping is a technique used on wire haired
+                                    terriers and can be done on terrier mixes. Prices depend on dog size and frequency
+                                    of sessions. Hand stripping is a method that is supposed to be done frequently but
+                                    for pets it is okay to go as long as two months between sessions.</p>
+                            </div>
+                            <div id="tab7" role="tabpanel">
+                                <h1>Additional Add-ons </h1>
+
+                                <h2>With either a Bath or Full Groom service:
+                                </h2>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/nail.jpg"></div>
+
+                                <ul class="list">
+                                    <li>Nail smoothing- $8</li>
+                                    <li>Teeth brushing/breath spray- $8</li>
+                                    <li>Blueberry Facial- $5</li>
+                                    <li>Your Choice Shampoo- $5</li>
+                                    <li>Conditioner- $5</li>
+                                    <li>Flea Shampoo- $8</li>
+                                    <li> Flea Spray-$3</li>
+                                    <li>Nail Polish- $15</li>
+                                </ul>
+
+                            </div>
+                            <div id="tab8" role="tabpanel">
+                                <h1>Pristine Poochies Ultimate Upgrade! </h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/bella.jpg" /></div>
+                                <h2>$20 (a $31 value)</h2>
+                                <h2> Includes:</h2>
+
+                                <ul class="list">
+                                    <li>Blueberry Facial</li>
+                                    <li>Your choice shampoo</li>
+                                    <li> Conditioner</li>
+                                    <li>Teeth brushing/ Breath spray</li>
+                                    <li>Nail smoothing</li>
+                                    <li>Paw Balm</li>
+                                    <li> Plus $5 off nail polish</li>
+
+                                </ul>
+
+                            </div>
+                            <div id="tab9" role="tabpanel">
+                                <h1>Shampoos</h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/facial.jpg" /></div>
+                                <p class="gap-top-small-tablet">
+                                    Blueberry brightener*, Plum Perfect*, Oatmeal, Deodorizing, Hypoallergenic, Sugar
+                                    Cookie*</p>
+                                <p> *indicates matching cologne
+                                </p>
+                            </div>
+
+
+                            <div id="tab10" role="tabpanel">
+                                <h1>Dye:</h1>
+                                <div
+                                    class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                    <img src="../images/frida.jpg" /></div>
+                                <p class="gap-top-small-tablet">The dye we use is vegan based and free of ammonia and
+                                    peroxide. Color can last from 2-6 months and does not transfer under normal
+                                    circumstances. Price is in addition to baths or grooming and starts at $25.</p>
+                            </div>
+                            <div id="tab11" role="tabpanel">
+                                    <h1>Walk-in Services:</h1>
+                                    <div
+                                        class="pull-right pull-none-small-tablet gap-left no-gap-small-tablet align-center">
+                                        <img src="../images/Roxi.jpg" /></div>
+                                        <ul class="list">
+                                                <li>Nail smoothing- $12</li>
+                                               
+                                                <li>Nail Cutting- $8</li>
+                                            </ul>
+                                </div>
+                        </div>
+
+                        <footer class="gap-top bounceInUp animated">
+
+                            <div class="box square">
+                                <div class="container padded">
+                                    <div class="row">
+
+                                        <div class="one half padded">
+                                            <p class="large padded align-right align-center-small-tablet">
+                                                <a href="http://twitter.com/groundworkcss" target="_blank"
+                                                    title="@groundworkcss" style="text-decoration:none;"
+                                                    class="large inline gapped"></a>
+                                                <a href="http://github.com/groundworkcss" target="_blank"
+                                                    title="@groundworkcss" style="text-decoration:none;"
+                                                    class="large inline gapped"></a>
+                                                <a href="mailto:pristine" title="emails@gmail.com"
+                                                    style="text-decoration:none;" class="large inline gapped"></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                        <!-- javascript-->
+                        <script type="text/javascript" src="../js/groundwork.all.js"></script>
+                        <!-- google analytics-->
+                        <script type="text/javascript">
+                            var _gaq = _gaq || [];
+                            _gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+                            _gaq.push(['_trackPageview']);
+                            (function () {
+                                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                            })();
+                        </script>
+</body>
+
+</html>
