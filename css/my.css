@@ -1,3 +1,61 @@
-body{
-    background-color: rgb(115, 178, 238)
+
+.logo {
+    position: relative;
+    top: -0.5em;
 }
+
+.logo a,
+.logo a:visited {
+    text-decoration: none;
+    color: #2B2B2D;
+}
+
+.logo img {
+    height: 2em;
+    position: relative;
+    top: 0.55em;
+    margin-right: 0.3em;
+}
+
+body {
+    background-image: url("../images/back3.jpg");
+}
+
+.nav,
+[role~=navigation] {
+    clear: both;
+    background: lightgrey;
+    color: #4326e9;
+    border: 1px solid #c6c6c6;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+a:not(.noicon)[href^="mailto:"]:before {
+    content: "\f0e0";
+}
+
+.nav a,
+.nav a:visited,
+.nav button {
+    background: lightgrey;
+    color: #4326e9;
+    cursor: pointer;
+    padding: .25em 1em;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.5;
+    border: 0;
+    border-top: 1px solid #c6c6c6;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+h1 {
+    color: #4326e9;
+}
+
+h4 {
+    color: #4326e9;
+}
+

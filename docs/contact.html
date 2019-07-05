@@ -21,6 +21,7 @@
     <link type="text/css" rel="stylesheet" href="../css/groundwork-ui.css">
     <link type="text/css" rel="stylesheet" href="../css/groundwork-anim.css">
     <link type="text/css" rel="stylesheet" href="../css/groundwork-ie.css"><![endif]-->
+    <link type="text/css" rel="stylesheet" href="../css/my.css">
     <style type="text/css">
       .logo {
         position: relative;
@@ -66,54 +67,20 @@
 </script>
   </head>
   <body>
-        <header class="padded">
-                <div class="container">
-                    <div class="row">
-                        <div class="one half">
-                            <h2 class="logo">
-                                <a href="/" target="_parent">
-                                    <img src="../images/logo.jpg" alt="GroundworkCSS">Pristine Poochies</a>
-                            </h2>
-                        </div>
-                        <div class="one half">
-                            <p class="small double-pad-top no-pad-small-tablet align-right align-left-small-tablet">
-                                <a href="https://www.facebook.com/PristinePoochies/" target="_parent">Facebook</a> - Call (912) 999-8485 </p>
-                        </div>
-                    </div>
-                    <nav role="navigation" class="nav gap-top">
-                            <ul role="menubar">
-                                <li>
-                                    <a href="../index.html">
-                                        <i class="icon-home"></i> Home</a>
-                                </li>
-                                <li>
-                                        <a href="services.html">
-                                           Services</a>
-                                    </li>
-                                <li>
-                                    <a href="photos.html">
-                                        Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">
-                                       Contact Us</a>
-                                </li>
-                             
-            
-                            </ul>
-                        </nav>
-                   
-                </div>
-            </header>
+      <script>
+          $(document).ready(function () {
+              $("div[data-includeHTML]").each(function () {                
+                  $(this).load($(this).attr("data-includeHTML"));
+              });
+          });
+      </script>
+
+
+<header class="padded">
+  <div data-includeHTML="https://www.saltydog.com//headers/headerp.html"></div>
+</header>
     <div class="container">
-      <div class="padded">
-            <div class="row">
-                    <img src="../images/pug.jpg" style="width:20%" alt="" class="pull-right">
-                    <h1 class="zero museo-slab">Pristine Poochies</h1>
-                    <p class="quicksand">Specialising in senior and special needs poochies</p>
-                
-                </div>
-      </div>
+   
       <hr>
       <article class="row">
         <section class="two small-tablet thirds padded bounceInDown animated">
@@ -168,23 +135,12 @@
       <hr class="gapped hide-on-mobile">
      
     </div>
-    <footer class="gap-top bounceInUp animated">
-            
-                    <div class="box square">
-                        <div class="container padded">
-                            <div class="row">
-            
-                                <div class="one half padded">
-                                    <p class="large padded align-right align-center-small-tablet">
-                                        <a href="http://twitter.com/groundworkcss" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a>
-                                        <a href="http://github.com/groundworkcss" target="_blank" title="@groundworkcss" style="text-decoration:none;" class="large inline gapped"></a>
-                                        <a href="mailto:pristine" title="emails@gmail.com" style="text-decoration:none;" class="large inline gapped"></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+    <footer>
+       
+        <div data-includeHTML="https://www.saltydog.com//headers/footer.html"></div>
+  
+</footer>
+   
     <!-- javascript-->
     <script type="text/javascript" src="../js/groundwork.all.js"></script>
     <!-- google analytics-->
