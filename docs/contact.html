@@ -15,30 +15,19 @@
     <!-- jQuery-->
     <script type="text/javascript" src="../js/libs/jquery-1.10.2.min.js"></script>
     <!-- framework css --><!--[if gt IE 9]><!-->
-    <link type="text/css" rel="stylesheet" href="../css/groundwork.css"><!--<![endif]--><!--[if lte IE 9]>
+    <link type="text/css" rel="stylesheet" href="../css/groundwork.css">
+    <link type="text/css" rel="stylesheet" href="../css/my.css">
+    
+    
+    
+    <!--<![endif]--><!--[if lte IE 9]>
     <link type="text/css" rel="stylesheet" href="../css/groundwork-core.css">
     <link type="text/css" rel="stylesheet" href="../css/groundwork-type.css">
     <link type="text/css" rel="stylesheet" href="../css/groundwork-ui.css">
     <link type="text/css" rel="stylesheet" href="../css/groundwork-anim.css">
     <link type="text/css" rel="stylesheet" href="../css/groundwork-ie.css"><![endif]-->
-    <link type="text/css" rel="stylesheet" href="../css/my.css">
-    <style type="text/css">
-      .logo {
-        position: relative;
-        top: -0.5em;
-      }
-      .logo a, .logo a:visited {
-        text-decoration: none;
-        color: #2B2B2D;
-      }
-      .logo img {
-        height: 2em;
-        position: relative;
-        top: 0.55em;
-        margin-right: 0.3em;
-      }
-      
-    </style>
+  
+   
     <!-- snippet (syntax highlighting for code examples)-->
     <script type="text/javascript" src="../js/demo/jquery.snippet.min.js"></script>
     <link type="text/css" rel="stylesheet" href="../css/demo/jquery.snippet.css"><script type="text/javascript">
@@ -67,18 +56,47 @@
 </script>
   </head>
   <body>
-      <script>
-          $(document).ready(function () {
-              $("div[data-includeHTML]").each(function () {                
-                  $(this).load($(this).attr("data-includeHTML"));
-              });
-          });
-      </script>
+    <header class="padded">
+      <div class="container">
+          <div class="row ">
 
 
-<header class="padded">
-  <div data-includeHTML="https://www.saltydog.com//headers/headerp.html"></div>
-</header>
+              <div class="one half bounceInRight animated">
+                  <h1 class="zero museo-slab">Pristine Poochies</h1>
+                  <p style="color:black; font-size: 1.3em">Specialising in senior and special needs poochies</p>
+              </div>
+
+              <div class="one half; pull-right bounceInDown animated">
+                  <h1>Call (912) 999-8485 </h1>
+
+                  <a href="mailto:katrina@pristinepoochies.com?Subject=Hello"
+                      style="color:black; font-size: 1.3em">katrina@pristinepoochies.com</a>
+              </div>
+</div>
+          <nav role="navigation " class="nav gap-top bounceInUp animated">
+              <ul role="menubar">
+                  <li>
+                      <a href="../index.html">
+                          <i class="icon-home"></i> Home</a>
+                  </li>
+                  <li>
+                      <a href="services.html">
+                          Services</a>
+                  </li>
+                  <li>
+                      <a href="photos.html">
+                          Gallery</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">
+                          Contact Us</a>
+                  </li>
+
+
+              </ul>
+          </nav>
+      </div>
+  </header>
     <div class="container">
    
       <hr>
@@ -136,10 +154,28 @@
      
     </div>
     <footer>
-       
-        <div data-includeHTML="https://www.saltydog.com//headers/footer.html"></div>
-  
-</footer>
+      <div class="box square">
+          <div class="container padded">
+              <div class="row bounceInDown animated">
+
+                  <div class="one third padded">
+
+                      <a href="https://www.facebook.com/PristinePoochies/" style="color:black; font-size: 1.3em"
+                          target="_parent">Facebook</a>
+                  </div>
+                  <div class="one third padded align-center">
+                      <p style="color:black; font-size: 1.3em">Call (912) 999-8485 </p>
+                  </div>
+                  <div class="one third padded">
+                      <a href="mailto: katrina@pristinepoochies.com"
+                       class="pull-right"   style="color:black; font-size: 1.3em">katrina@pristinepoochies.com
+                      </a>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+      </footer>
    
     <!-- javascript-->
     <script type="text/javascript" src="../js/groundwork.all.js"></script>
